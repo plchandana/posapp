@@ -1,0 +1,92 @@
+
+.containor {
+background-color: green;
+display: flex;
+width: 100vw;
+height: 100vh;
+margin: 50px;
+border-radius: 10px;
+}
+.content {
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+  background-color: white;
+  width: 40vw;
+  height: 60vh;
+  border-radius: 20px;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title{
+  margin-top: 10px;
+  position: relative;
+  left: 20%;
+  top: 50%;
+ font-weight: bold;
+ font-size: 30px;
+  color: brown;
+ align-items: center;
+}
+.email{
+  position: relative;
+  left: 100px;
+  top: 20%;
+  display: block;
+  height: 50px;
+  width: 60%;
+  border-radius: 5px;
+}
+.password{
+  position: relative;
+  top: 40%;
+  left: 100px;
+  display: block;
+  height: 50px;
+  width: 60%;
+  border-radius: 5px;
+}
+#showPasswordCheckbox{
+  position: relative;
+  top: 230px;
+  left: 95px;
+
+}
+.showpassword{
+  position: relative;
+  top: 230px;
+  left: 100px;
+
+}
+.a{
+  display: inline-block;
+position: relative;
+top: 330px;
+}
+.b{
+
+  display: inline-block;
+  position: relative;
+  color: rgb(110, 43, 226);
+  top: 330px;
+  left:5px;
+}
+.c{
+display: inline-block;
+position: relative;
+top: 330px;
+left: 230px;
+
+}
+
+.d{
+  display: inline-block;
+  position: relative;
+  color: rgb(110, 43, 226);
+  top: 330px;
+  left: 240px;
+
+}

@@ -1,0 +1,20 @@
+.container {
+    width: 82vw;
+    height: 100vh;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSection {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
