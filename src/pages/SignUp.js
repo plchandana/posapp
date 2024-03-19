@@ -28,6 +28,8 @@ function SignUp() {
 
 
     const signUpFunction = async () => {
+
+        console.log(formData);
              try {
                     const res = await fetch(`${userSaveAPI}`, {
                         method: 'POST',
@@ -40,12 +42,12 @@ function SignUp() {
         console.log(
             'res', res
          );
-                    if (res.status === 200) {
-                        alert("User Register Success!")
-                        navigate('/sign-in', {replace: true})
-                    } else {
-                        alert("User Register Fail!")
-                    }
+                    // if (res.status === 200) {
+                    //     alert("User Register Success!")
+                    //     navigate('/sign-in', {replace: true})
+                    // } else {
+                    //     alert("User Register Fail!")
+                    // }
                 } catch (e) {
                 }
     }
