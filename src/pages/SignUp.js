@@ -35,19 +35,19 @@ function SignUp() {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
-                            'Access-Control-Allow-Origin': '*',
+                           'Access-Control-Allow-Origin': '*',
                         },
                         body: JSON.stringify(formData)
                     })
         console.log(
             'res', res
          );
-                    // if (res.status === 200) {
-                    //     alert("User Register Success!")
-                    //     navigate('/sign-in', {replace: true})
-                    // } else {
-                    //     alert("User Register Fail!")
-                    // }
+                    if (res.status === 200) {
+                        alert("User Register Success!")
+                        navigate('/sign-in', {replace: true})
+                    } else {
+                        alert("User Register Fail!")
+                    }
                 } catch (e) {
                 }
     }
